@@ -19,7 +19,7 @@ public class Test {
 			}
 		});*/                                                // Using Anonymous Class
 		
-	    printer.printAllEligibleStudent(list, (Student s)->s.getAge()>100);
+	    printer.printAllEligibleStudent(list, (Student s)->s.getAge()>100);    // Using Lambda Expression
 	}
 	
 }
